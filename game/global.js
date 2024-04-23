@@ -4,6 +4,17 @@ var gameState = checkCurrentGameState();
 // Tier 2 Variables: all the variables that are used within the game enviorment (sprites, values, etc.)
 var main_menu, the_game, player_menu, pause_menu;
 
+    //main menu variables
+var title;
+var new_game;
+var continue_game;
+
+    //pause menu variables
+
+    //player menu variables
+
+    //game variables
+
 // Global Functions: have direct impact on the game, all functions and behaviors are called from here
 
 function checkCurrentGameState() {

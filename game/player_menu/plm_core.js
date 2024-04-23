@@ -1,11 +1,3 @@
-function plSetup() {
-    new p5(main_menu);
-}
-
-function plDraw() {
-
-}
-
 player_menu = function(sketch) {
     sketch.setup = function() {
         let plm_screen = this.createCanvas(800,450);
@@ -15,4 +7,12 @@ player_menu = function(sketch) {
     sketch.draw = function() {
         this.background("black");
     }
+}
+
+function plSetup() {
+    new p5(main_menu);
+}
+
+function plDraw() {
+
 }
